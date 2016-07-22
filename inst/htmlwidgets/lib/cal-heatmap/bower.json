@@ -7,13 +7,13 @@
     "d3js",
     "heat map"
   ],
-  "version": "3.5.0",
+  "version": "3.6.0",
   "main": ["./cal-heatmap.js", "./cal-heatmap.css"],
   "dependencies": {
     "d3": ">= v3.0.6"
   },
-  "location": "https://github.com/kamisama/cal-heatmap",
-  "licence": "MIT",
+  "location": "https://github.com/wa0x6e/cal-heatmap",
+  "license": "MIT",
   "ignore": [
     "test/",
     "src/",
@@ -21,13 +21,13 @@
     "karma.conf.js",
     "package.json"
   ],
-  "author": {
+  "authors": [{
     "name": "Wan Qi Chen",
-    "url": "http://www.kamisama.me"
-  },
-  "homepage": "https://github.com/kamisama/cal-heatmap",
+    "homepage": "http://www.kamisama.me"
+  }],
+  "homepage": "https://github.com/wa0x6e/cal-heatmap",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kamisama/cal-heatmap.git"
+    "url": "https://github.com/wa0x6e/cal-heatmap.git"
   }
 }

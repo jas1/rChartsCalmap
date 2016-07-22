@@ -8,7 +8,13 @@
 calheatmap <- function(x, y, data, domain, start, ...,
     width = NULL, height = NULL) {
 
-  data[x] <- as.numeric(as.POSIXct(data[[x]]))
+  # if not numeric, then try to parse the column date as posix
+  # usefull for input directly the posix numbers
+  # data[x] <- as.numeric(as.POSIXct(data[[x]]))
+  if( !is.numeric(data[x])){
+	data[x] <- as.numeric(as.POSIXct(data[[x]]))
+  }
+
   dat <- setNames(as.list(data[[y]]), data[[x]])
 
   # forward options using x
