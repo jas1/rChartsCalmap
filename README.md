@@ -1,13 +1,17 @@
+
+this is my first time trying to change others code on github so be cuatious :P 
+
 # some usefull links:
 
 calheatmap: 
 
 [Cal-Heatmap](https://github.com/wa0x6e/cal-heatmap)
-[Cal-Heatmap site](http://cal-heatmap.com/)
-[original author](https://github.com/ramnathv/rChartsCalmap)
-[author d3 example](http://bl.ocks.org/ramnathv/7979341
 
-this is my first time trying to change others code on github so be cuatious :P 
+[Cal-Heatmap site](http://cal-heatmap.com/)
+
+[original author](https://github.com/ramnathv/rChartsCalmap)
+
+[author d3 example](http://bl.ocks.org/ramnathv/7979341)
 
 # original readme:
 
